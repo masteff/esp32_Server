@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="/styles.css" >
+    <script async src="/app.js"></script>
+    <title>Test Station Updates</title>
+</head>
+<body>
+    <header>
+        <h1>Test Station 1</h1>
+    </header>
+    <div class="content">
+        <h2>Operator</h2>
+        <div class="content-item">
+            <div id="btnOperator" class="button" onclick="setOperator()">Set Operator to</div>
+            <input id="inputOperator" type="text">
+        </div>
+        <h2>Control</h2>
+        <div class="content-item">
+            <div id="btnStart" class="button" onclick="btnStart()">Start Test</div>
+            <div id="btnStop" class="button" onclick="btnStop()">Stop Test</div>
+        </div>
+        <h2>Updates</h2>
+        <div class="updates">
+            <div class="content-item">
+                <div id="btnGetUpdates" class="button" onclick="startUpdates()">Get Updates</div>
+                <div id="btnStopUpdates" class="button" onclick="stopUpdates()">Stop Updates</div>
+            </div>
+            <label id="lblUpdate">no Status available</label>
+        </div>
+    </div>
+    <footer class="footer">
+        <p><a href="https://github.com/masteff">github.com/masteff</a></p>
+    </footer>
+</body>
+</html>

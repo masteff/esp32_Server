@@ -1,0 +1,84 @@
+:root {
+    --clr-light: #fff;
+    --clr-darker: #9f9f9f;
+    --clr-dark: #303030;
+  }
+  
+
+body {
+    background: var(--clr-light);
+    margin: 0;
+    font-family: Consolas, Arial, Helvetica, sans-serif;
+    text-align: center;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    background: var(--clr-darker);
+    color: #2d2d2d;
+    padding: 1em;
+}
+
+h2 {
+    margin-top: 2.5em;
+    margin-bottom: .25em;
+}
+
+.content {
+    width: 360px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.content-item {
+    display: flex;
+    justify-content:space-between;
+    margin-top: 1em;
+}
+
+
+.updates {
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+}
+
+.button {
+    display: inline-block;
+    width: 100px;
+    padding: .5em 2.5em;
+    background: #778899  ;
+    border: 1px solid black;
+    cursor: pointer;
+
+    font-size: .8em;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 1px;
+    font-weight: bold;
+    transition: transform 200ms ease-in-out;
+}
+
+#inputOperator {
+    width: 163px;
+}
+
+#lblUpdate {
+    margin-top: 2em;
+    border: 1px solid black;
+}
+
+.footer {
+    margin-top: auto;
+    background: var(--clr-darker);
+    text-align: center;
+    padding: .3em 0;
+}
+
+a, a:hover, a:visited, a:active {
+    color: inherit;
+    text-decoration: none;
+   }
